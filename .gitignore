@@ -1,0 +1,22 @@
+Diretórios de build e instalação temporários
+dist/ build/ *.egg-info/
+Ambiente Virtual Python
+Ignora o diretório completo do ambiente virtual,
+independentemente do nome (venv, env, etc.)
+venv/ env/
+Ficheiros e pastas de cache do Python
+Diretórios de bytecode criados pelo Python 3
+pycache/
+Ficheiros de bytecode compilados
+*.pyc
+Ficheiros de logs e resultados de testes
+*.log .coverage .pytest_cache/
+Ficheiros específicos de editores de código
+VS Code
+.vscode/
+Ficheiros de dados gerados que mudam
+constantemente.
+MANTEMOS ESTE FICHEIRO RASTREADO POR
+ENQUANTO.
+Para IGNORAR o inventario.json, remova o '#' da frente
+# inventario.json
